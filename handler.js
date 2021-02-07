@@ -1,6 +1,10 @@
 'use strict';
 
-module.exports.hello = async (event) => {
+const settings = require('./config/settings')
+
+module.exports.scheduler = async (event) => {
+  console.log('ENVIRONMENT: ', settings)
+
   return {
     statusCode: 200,
     body: JSON.stringify(

@@ -1,0 +1,14 @@
+{
+  "name": "serverless-envs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:srsantosdev/lambda-environments.git",
+  "author": "Samuel Ramos <samuelsantos7@yahoo.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "invoke-local": "sls invoke local --stage prod -f commit-message-scheduler --logger"
+  },
+  "dependencies": {
+    "env-var": "^7.0.0"
+  }
+}
