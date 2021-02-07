@@ -9,6 +9,10 @@
     "invoke-local": "sls invoke local --stage prod -f commit-message-scheduler --logger"
   },
   "dependencies": {
-    "env-var": "^7.0.0"
+    "aws-sdk": "^2.839.0",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "env-var": "^7.0.0",
+    "uuid": "^8.3.2"
   }
 }
